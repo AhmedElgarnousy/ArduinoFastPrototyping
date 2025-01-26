@@ -11,14 +11,6 @@ void setup() {
 void loop() {
   while (Serial.available() > 0) {
    char receivedChar = Serial.read();
-//   if(receivedChar == '\n')
-//   {
-       Serial1.println(receivedChar);  // Send the message through Serial1 with a newline character
-//    receivedMessage = "";
-//   }
-//   else
-//   {
-//    receivedMessage+=receivedChar;
-//    }
+   Serial1.println(receivedChar);  // Send the message through Serial1 with a newline character
   }
 }
