@@ -1,8 +1,8 @@
 void setup(){
-  Serial.begin(9600); //initialize serial communication at a 9600 baud rate
+  Serial1.begin(9600); //initialize serial communication at a 9600 baud rate
 }
 
 void loop(){
-  Serial.println("Hello world!");
+  Serial1.println("USBTLL");
   delay(1000);
 }
