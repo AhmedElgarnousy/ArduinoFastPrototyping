@@ -12,4 +12,4 @@ using Logic Analyzer, putty(as console)
 
 
 #### Resources
-
+- [EWSKills](https://www.ewskills.com)
